@@ -6,16 +6,16 @@ import {Navbar,Nav} from 'react-bootstrap'
 function Header() {
   return (
     <>
-<Navbar className="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+<Navbar className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
   <div className="container-fluid">
 
     <LinkContainer to="/">
     <Nav.Link className="navbar-brand" >Ecommerce Cart</Nav.Link>
     </LinkContainer>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" fdprocessedid="usung9">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" fdprocessedid="kaa8u3">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarColor03">
+    <div className="collapse navbar-collapse" id="navbarColor01">
       <ul className="navbar-nav me-auto">
         <li className="nav-item">
         <LinkContainer to="/">
